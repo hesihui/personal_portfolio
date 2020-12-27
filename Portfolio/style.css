@@ -1,10 +1,9 @@
 
-/* ----------- Container ----------- */
-/* *,
+*,
 *::before,
 *::after {
   box-sizing: border-box;
-} */
+}
 
 html {
   font-family: sans-serif;
@@ -40,11 +39,14 @@ body {
   background-color: #fff;
 }
 
-
 @media (min-width: 1200px) {
   .container-fluid {
     max-width: 1080px;
   }
+}
+
+#menu-bar{
+  border-color: white;
 }
 
 .divider-custom .divider-custom-line {
@@ -73,4 +75,11 @@ body {
 
 .about-description{
   color: #437D99;
+}
+
+@media (max-width: 990px)
+{
+  .navbar-nav{
+    font-size: 1em;
+  }
 }
