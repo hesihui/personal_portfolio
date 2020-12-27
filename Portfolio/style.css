@@ -25,8 +25,8 @@ html {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -1.5rem;
-  margin-left: -1.5rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 body {
@@ -51,9 +51,9 @@ body {
     width: 100%;
     max-width: 7rem;
     height: 0.25rem;
-    background-color: #2c3e50;
+    background-color: #437D99;
     border-radius: 1rem;
-    border-color: #2c3e50 !important;
+    border-color: #437D99 !important;
     display: inline-block;
 }
 
@@ -62,9 +62,15 @@ body {
   padding: 0 1em;
 }
 
+.portfolio-item img{
+  max-width: 100%;
+}
 
 
-/* Navigation */
-#navbarResponsive{
+.portfolio-description{
+  color: #5E6263;
+}
 
+.about-description{
+  color: #437D99;
 }
